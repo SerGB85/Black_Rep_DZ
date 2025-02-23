@@ -19,4 +19,11 @@
       <value>Алтай</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="b319a29f-9618-4cec-a100-d6bdae9446a8">
+    <name>Гималаи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гималаи</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
