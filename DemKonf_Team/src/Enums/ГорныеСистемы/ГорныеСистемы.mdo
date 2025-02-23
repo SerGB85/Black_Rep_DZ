@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3eb2e1b-5cbc-4ce9-a872-b4340fb07eff">
+  <producedTypes>
+    <refType typeId="6c403beb-f416-4305-a99c-047e5a229feb" valueTypeId="af02d2a7-12e2-486b-9d34-5b90d26de212"/>
+    <listType typeId="97cfe5e4-ccf7-43c2-94ea-2044384ac34a" valueTypeId="1b65b46b-a5bd-4120-818f-378842ea5a88"/>
+    <managerType typeId="a1b50ab7-77b1-4a90-83f7-52670184c82d" valueTypeId="b8db4e17-070b-47ab-a45f-f5bdab3d1a04"/>
+  </producedTypes>
+  <name>ГорныеСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Горные системы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="17509159-7bc4-426a-82a4-3f646fb7a804">
+    <name>Алтай</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алтай</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
