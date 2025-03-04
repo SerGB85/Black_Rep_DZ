@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a63497a-b3d5-4767-b114-ef6ff7a570f9">
+  <producedTypes>
+    <objectType typeId="01709c1e-b97c-461e-b869-82a11dc38d25" valueTypeId="9ca482d3-1ec8-470f-baea-9a95fa5620fd"/>
+    <refType typeId="f9216778-5eed-4cc1-b402-8242cccb118a" valueTypeId="bab29463-3216-4ee1-b221-77b0eafe70d8"/>
+    <selectionType typeId="594aa530-1206-46ba-a435-4534d33ba3be" valueTypeId="8b561517-1762-400b-92ae-0df1f9e9b652"/>
+    <listType typeId="3203582b-d2be-415e-a1cc-38cab6bf5cce" valueTypeId="15c0bd70-9990-4385-bc51-3acc4c423c71"/>
+    <managerType typeId="e9ae35da-5b04-42c5-8a9b-a3a133190061" valueTypeId="3cd7211d-a341-43a8-a805-6468f12e887d"/>
+  </producedTypes>
+  <name>Страны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Страны</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Страны.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Страны.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="944d7be0-fe3b-406d-9d7e-681295762422">
+      <name>Россия</name>
+      <description>Россия</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
