@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcbb127c-de41-44e1-8fb1-54011cefedd0">
+  <producedTypes>
+    <refType typeId="fa1ffa85-e0c8-4393-b5ae-f6de11b6bf2b" valueTypeId="efc4a454-8a07-4c68-96b0-33353665c730"/>
+    <listType typeId="23ce7d3a-de18-4e05-b2cb-547200ee36d1" valueTypeId="81f3e7b8-ff24-4e61-b02d-29c94142c331"/>
+    <managerType typeId="54fb353b-d16c-43b9-bc9f-ce0bfaae293b" valueTypeId="64d2cfbc-08c0-4c90-8ae4-142b8050faf5"/>
+  </producedTypes>
+  <name>Периоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периоды</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bf845442-b6bf-4acf-8f7f-dd84e823ee58">
+    <name>Год_2020</name>
+    <synonym>
+      <key>ru</key>
+      <value>2020 г.</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1292f4d4-4f64-49c9-9fb0-bfc9fa6dddce">
+    <name>Год_2021</name>
+    <synonym>
+      <key>ru</key>
+      <value>2021 г.</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2568286-fb8f-4292-8bd4-10a51abbddc9">
+    <name>Год_2022</name>
+    <synonym>
+      <key>ru</key>
+      <value>2022 г.</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92693607-beb1-432e-95e1-866f51dfa21c">
+    <name>Год_2023</name>
+    <synonym>
+      <key>ru</key>
+      <value>2023 г.</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e2f4a8d-fc21-4ea9-a3f7-e6763051de42">
+    <name>Год_2024</name>
+    <synonym>
+      <key>ru</key>
+      <value>2024 г.</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8961cc65-2f7a-4b13-b18e-859c9e4d18e2">
+    <name>Год_2025</name>
+    <synonym>
+      <key>ru</key>
+      <value>2025 г.</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
