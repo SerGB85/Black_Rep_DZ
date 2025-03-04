@@ -384,6 +384,7 @@
   <enums>Enum.НазначениеХарактеристик</enums>
   <enums>Enum.ИспользоватьПровайдерГеопозиционирования</enums>
   <enums>Enum.ГорныеСистемы</enums>
+  <enums>Enum.Периоды</enums>
   <reports>Report.ВзаимосвязьПродажТоваров</reports>
   <reports>Report.ДашбордПродажи</reports>
   <reports>Report.ДинамикаПродаж</reports>
