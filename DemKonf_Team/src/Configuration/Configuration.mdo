@@ -200,6 +200,7 @@
   <subsystems>Subsystem.Продажи</subsystems>
   <subsystems>Subsystem.Финансы</subsystems>
   <subsystems>Subsystem.ТоварныеЗапасы</subsystems>
+  <subsystems>Subsystem.Запасы</subsystems>
   <styleItems>StyleItem.ЦветТекстаСущественныхИзмененийДанных</styleItems>
   <styleItems>StyleItem.ЦветТекстаНормальногоСостояния</styleItems>
   <styleItems>StyleItem.ЦветТекстаОшибочногоСостояния</styleItems>
@@ -414,6 +415,7 @@
   <informationRegisters>InformationRegister.СостояниеИсходящихПисем</informationRegisters>
   <informationRegisters>InformationRegister.Характеристики</informationRegisters>
   <informationRegisters>InformationRegister.МобильныеОтчеты</informationRegisters>
+  <informationRegisters>InformationRegister.ИсторияИзмененияМестХранения</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварныеЗапасы</accumulationRegisters>
