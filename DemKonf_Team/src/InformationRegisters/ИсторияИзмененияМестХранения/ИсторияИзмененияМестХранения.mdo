@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf91ddf9-ae4f-44ae-8724-d6d77e5869b5">
+  <producedTypes>
+    <selectionType typeId="3a074fd0-44a0-485d-a05a-84bc390deb7f" valueTypeId="93511dae-f88a-4804-a093-9a2018441e0e"/>
+    <listType typeId="35c2eedb-15cd-499a-927d-c0b6336b0b8d" valueTypeId="ebd28bba-3e9c-4799-9bf1-866af0962e17"/>
+    <managerType typeId="94195174-aaef-42a9-9452-9e347f5f60d2" valueTypeId="a16b2853-915a-4b70-addf-6eb3a37569c7"/>
+    <recordSetType typeId="77709ab3-6ba1-4914-ac0f-648857935de4" valueTypeId="e8e9ac34-18cb-4c63-b0c0-7ad714a2cffc"/>
+    <recordKeyType typeId="f6b2e591-7c8a-4a3d-8d6b-da539489050c" valueTypeId="7d256d40-d896-4e2d-bafb-cec444e9e9e9"/>
+    <recordType typeId="8f926e34-f452-40ac-899a-1fd33c3ba7a2" valueTypeId="b74dc4a3-5a74-453c-a7fb-7a5aedd421aa"/>
+    <recordManagerType typeId="249a3f35-9b45-44aa-90b4-5a55902750bd" valueTypeId="287e6044-c42e-4697-b021-dde574bcbe54"/>
+  </producedTypes>
+  <name>ИсторияИзмененияМестХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>История изменения мест хранения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b1739b9e-627a-435a-a12b-53d879dccbcb">
+    <name>Архив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архив</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="001f3e1f-b75c-4f31-b766-0ac7dc746b51">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
