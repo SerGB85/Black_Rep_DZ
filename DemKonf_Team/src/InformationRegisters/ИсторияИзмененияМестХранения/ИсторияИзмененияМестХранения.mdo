@@ -34,6 +34,24 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <attributes uuid="4f7fae49-da9c-4f61-9ed0-2b2f2da01660">
+    <name>ДатаДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата до</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="001f3e1f-b75c-4f31-b766-0ac7dc746b51">
     <name>МестоХранения</name>
     <synonym>
