@@ -201,6 +201,7 @@
   <subsystems>Subsystem.Финансы</subsystems>
   <subsystems>Subsystem.ТоварныеЗапасы</subsystems>
   <subsystems>Subsystem.ОбменДанными</subsystems>
+  <subsystems>Subsystem.Запасы</subsystems>
   <styleItems>StyleItem.ЦветТекстаСущественныхИзмененийДанных</styleItems>
   <styleItems>StyleItem.ЦветТекстаНормальногоСостояния</styleItems>
   <styleItems>StyleItem.ЦветТекстаОшибочногоСостояния</styleItems>
